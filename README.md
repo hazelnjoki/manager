@@ -23,11 +23,11 @@ bash
 pipenv install
 pipenv shell
 
-Run the CLI application:
+Run the CLI application to test the CLI implementation:
 
 bash
 
-    python main.py
+    python main.py --check-in 2023-01-01 --check-out 2023-01-05 --room-type "Standard" --spa-package "Relaxation"
 
 Features
 
